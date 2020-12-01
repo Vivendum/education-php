@@ -39,4 +39,33 @@ Loop  — ожидание.' . PHP_EOL;
   print $variable_text_2 . PHP_EOL;
   print $variable_number_1 . PHP_EOL;
   print $variable_array[2] . PHP_EOL;
+  print PHP_EOL;
+  print '----==== 4 ====----' . PHP_EOL;
+  echo
+    'Конструкция языка echo — выводит одну и более строк.', PHP_EOL,
+    'Аргументы нужно перечислять через запятую: echo \'текст\', \'текст\';', PHP_EOL,
+    'Так как echo это языковая конструкция, а не функция то () скобки ОБЯЗАТЕЛЬНО нужно опустить: echo (\'текст\', \'текст\'); — НЕ РАБОТАЕТ!', PHP_EOL;
+  print PHP_EOL;
+  echo
+    'Пример 1', PHP_EOL,
+    'Первый аргумент: аргументы echo заключённы в \' кавычки.',
+    '\n',
+    'Третий аргумент: строка после \n.',
+    'PHP_EOL',
+    'Пятый аргумент: строка после PHP_EOL.',
+    PHP_EOL,
+    'Седьмой аргумент: строка после PHP_EOL без \' одинарных кавычек.', PHP_EOL,
+    'Восьмой аргумент — вывод переменных: $variable_text_1, $variable_text_2, $variable_number_1, {$variable_array[2]}.', PHP_EOL;
+  print PHP_EOL;
+  echo
+    'Пример 2', PHP_EOL,
+    "Первый аргумент: аргументы echo заключены в \" кавычки.",
+    "\n",
+    "Третий аргумент: строка после \\n.",
+    "PHP_EOL",
+    "Пятый аргумент: строка после PHP_EOL.",
+    PHP_EOL,
+    "Седьмой аргумент: строка после PHP_EOL без \" двойных кавычек.", PHP_EOL,
+    "Восьмой аргумент — вывод переменных: $variable_text_1, $variable_text_2, $variable_number_1, {$variable_array[2]}.", PHP_EOL;
+  print PHP_EOL;
 ?>
