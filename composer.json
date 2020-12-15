@@ -1,0 +1,19 @@
+{
+  "name": "vivendum/education-php",
+  "description": "Training project for learning PHP",
+  "homepage": "https://github.com/Vivendum/education-php#readme",
+  "support": {
+    "issues": "https://github.com/Vivendum/academy-device/issues"
+  },
+  "authors": [
+    {
+      "name": "Vivendum",
+      "email": "vivendum@mail.ru",
+      "homepage": "https://vivendum.github.io/present-myself",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "require-dev": {},
+  "require": {}
+}
