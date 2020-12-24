@@ -14,6 +14,12 @@
     }
   ],
   "license": "MIT",
-  "require-dev": {},
-  "require": {}
+  "require-dev": {
+    "dg/ftp-deployment": "3.3.x"
+  },
+  "require": {},
+  "scripts": {
+    "deploy": "deployment deployment.php",
+    "test-deploy": "deployment deployment.php --test"
+  }
 }
