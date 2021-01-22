@@ -15,11 +15,28 @@
   ],
   "license": "MIT",
   "require-dev": {
-    "dg/ftp-deployment": "3.3.x"
+    "dg/ftp-deployment": "3.3.x",
+    "squizlabs/php_codesniffer": "3.5.x"
   },
-  "require": {},
   "scripts": {
     "deploy": "deployment deployment.php",
-    "test-deploy": "deployment deployment.php --test"
+    "test-deploy": "deployment deployment.php --test",
+    "phpcs": "phpcs",
+    "phpcs-project": "phpcs ./shared/",
+    "phpcs-test": "phpcs --standard=PEAR,PSR1,PSR2,PSR12,Zend,MySource,Squiz --report=code -s",
+    "tuning-code-sniffer": [
+      "phpcs --config-set default_standard Squiz",
+      "phpcs --config-set report_format full",
+      "phpcs --config-set show_warnings 0",
+      "phpcs --config-set show_progress 0",
+      "phpcs --config-set colors 1",
+      "phpcs --config-set report_width auto"
+    ],
+    "post-install-cmd": [
+      "@tuning-code-sniffer"
+    ],
+    "post-update-cmd": [
+      "@tuning-code-sniffer"
+    ]
   }
 }
