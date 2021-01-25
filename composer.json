@@ -23,11 +23,12 @@
     "test-deploy": "deployment deployment.php --test",
     "phpcs": "phpcs",
     "phpcs-project": "phpcs ./shared/",
-    "phpcs-test": "phpcs --standard=PEAR,PSR1,PSR2,PSR12,Zend,MySource,Squiz --report=code -s",
+    "phpcs-test-vivendum": "phpcs --report=code -s",
+    "phpcs-test-all": "phpcs --standard=PEAR,PSR1,PSR2,PSR12,Zend,MySource,Squiz --report=code -s",
     "tuning-code-sniffer": [
-      "phpcs --config-set default_standard Squiz",
+      "phpcs --config-set default_standard ./phpcs.xml",
       "phpcs --config-set report_format full",
-      "phpcs --config-set show_warnings 0",
+      "phpcs --config-set show_warnings 1",
       "phpcs --config-set show_progress 0",
       "phpcs --config-set colors 1",
       "phpcs --config-set report_width auto"
