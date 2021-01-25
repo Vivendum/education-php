@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="Vivendum Edition">
+  <description>Code style developed by Vivendum for their personal projects</description>
+  <rule ref="Generic.Files.ByteOrderMark"/>
+  <rule ref="Generic.Files.LineEndings"/>
+  <rule ref="PSR2.Files.EndFileNewline"/>
+  <rule ref="Zend.Files.ClosingTag.NotAllowed"/>
+  <rule ref="Generic.PHP.DisallowShortOpenTag"/>
+  <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
+</ruleset>
