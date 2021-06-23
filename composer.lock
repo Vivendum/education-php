@@ -9,16 +9,16 @@
     "packages-dev": [
         {
             "name": "dg/ftp-deployment",
-            "version": "v3.3.1",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dg/ftp-deployment.git",
-                "reference": "267cb5f3467d962b0ea86c15a45c7d855af8bcdd"
+                "reference": "a98748d4706afb145264eea6cd7ee2e48d364a14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dg/ftp-deployment/zipball/267cb5f3467d962b0ea86c15a45c7d855af8bcdd",
-                "reference": "267cb5f3467d962b0ea86c15a45c7d855af8bcdd",
+                "url": "https://api.github.com/repos/dg/ftp-deployment/zipball/a98748d4706afb145264eea6cd7ee2e48d364a14",
+                "reference": "a98748d4706afb145264eea6cd7ee2e48d364a14",
                 "shasum": ""
             },
             "require": {
@@ -70,9 +70,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dg/ftp-deployment/issues",
-                "source": "https://github.com/dg/ftp-deployment/tree/v3.3.1"
+                "source": "https://github.com/dg/ftp-deployment/tree/v3.3.2"
             },
-            "time": "2020-11-09T12:40:03+00:00"
+            "time": "2021-02-17T10:09:53+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
