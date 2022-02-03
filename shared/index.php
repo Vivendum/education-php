@@ -15,8 +15,8 @@
     <section>
       <h2>Навигация по сайту</h2>
       <ul>
-        <li><em>Огромные</em> достижения в изучении <abbr title="Hypertext Preprocessor" lang="en">PHP</abbr> находятся <a href="/learning-php/learning-php.php">здесь</a>.</li>
-        <li>Файлохранилище <a href="files-storage/">здесь</a>. И так как у меня нет уверености нужна ли <a href="description-files.php">странница</a> с описанием назначения тех или иных файлов с сылками на них, я всё таки её создал на всякий случай.</li>
+        <li><em>"Огромные"</em> достижения в изучении <abbr title="Hypertext Preprocessor" lang="en">PHP</abbr> находятся <a href="/learning-php/learning-php.php">здесь</a>.</li>
+        <li>Навигация по файлохранилищу <a href="description-files.php">здесь</a>.</li>
       </ul>
     </section>
     <section>
