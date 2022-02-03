@@ -15,7 +15,7 @@
     <section>
       <h2>Навигация по сайту</h2>
       <ul>
-        <li><em>"Огромные"</em> достижения в изучении <abbr title="Hypertext Preprocessor" lang="en">PHP</abbr> находятся <a href="/learning-php/learning-php.php">здесь</a>.</li>
+        <li>"<em>Огромные</em>" достижения в изучении <abbr title="Hypertext Preprocessor" lang="en">PHP</abbr> находятся <a href="/learning-php/learning-php.php">здесь</a>.</li>
         <li>Навигация по файлохранилищу <a href="description-files.php">здесь</a>.</li>
       </ul>
     </section>
@@ -28,7 +28,9 @@
     </section>
     <section>
       <h2>Важные замечания</h2>
-      <li>Все файлы страниц на сайте должны иметь расширение <code lang="en">.php</code></li>
+      <ul>
+        <li>Все файлы страниц на сайте должны иметь расширение <code lang="en">.php</code></li>
+      </ul>
     </section>
   </body>
 </html>
